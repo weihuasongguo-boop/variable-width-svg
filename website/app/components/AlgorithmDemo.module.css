@@ -1,0 +1,16 @@
+.demo{margin:0;width:100%;aspect-ratio:1;display:flex;flex-direction:column;padding:20px;min-width:0;background:var(--color-kumo-base);border:0;border-radius:0}
+.iconStage{display:grid;place-items:center;flex:1;min-height:0;min-width:0;padding:12px}
+.iconStage img{display:block;width:min(100%,160px);height:100%;max-height:160px;object-fit:contain}
+.controls{display:grid;gap:12px;flex:none;padding-top:14px;font-size:14px}
+@media(max-width:480px){.demo{padding:14px}.iconStage{padding:4px}.iconStage img{max-height:160px}}
+
+.optionGroup{display:flex;align-items:center;justify-content:space-between;gap:12px}.optionGroup>span{flex:none}.optionGroup>div{max-width:100%}@media(max-width:360px){.optionGroup{flex-wrap:wrap}}
+
+/* Keep both choices visible instead of shrinking into scrollable tabs. */
+.optionGroup{flex-wrap:wrap}
+.optionGroup>.optionTabs{flex:none;max-width:none}
+.optionList{width:max-content}
+/* These two-option controls never need horizontal navigation. */
+.optionTabs [data-kumo-part="overflow-control"]{display:none}
+.optionList{overflow:visible;mask-image:none;cursor:pointer}
+.optionList [role="tab"]{cursor:pointer}

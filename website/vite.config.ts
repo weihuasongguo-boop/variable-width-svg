@@ -1,0 +1,1 @@
+import {defineConfig} from 'vite';import {reactRouter} from '@react-router/dev/vite';export default defineConfig({build:{assetsDir:'variable-width/assets'},plugins:[reactRouter()],ssr:{noExternal:['@phosphor-icons/react']}});

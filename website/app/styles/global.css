@@ -1,0 +1,54 @@
+/* Layout and content only. Kumo owns control appearance and interaction states. */
+:root {
+  --paper: var(--color-kumo-base);
+  --surface: var(--color-kumo-base);
+  --ink: var(--text-color-kumo-default);
+  --muted: var(--text-color-kumo-subtle);
+  --line: var(--color-kumo-line);
+  --hover: var(--color-kumo-tint);
+  --font-ui: var(--font-sans);
+  font-family: var(--font-sans);
+  color: var(--text-color-kumo-default);
+  background: var(--color-kumo-base);
+  font-synthesis: none;
+}
+body { margin: 0; font-size: var(--text-base); }
+button, a { -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
+a:focus-visible, [data-kumo-part="default-trigger"]:focus-visible { outline: 2px solid var(--color-kumo-brand); outline-offset: 4px; }
+.site-root { isolation: isolate; max-width: 808px; margin: auto; padding: 0 64px; }
+.site-header { min-height: 94px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.wordmark { font-weight: 650; font-size: 20px; letter-spacing: -.6px; }
+.site-header nav { display: flex; gap: 8px; }
+.site-footer { padding: 26px 0 36px; display: flex; justify-content: space-between; color: var(--muted); font-size: 12px; margin-top: 64px; }
+.error-page { padding: 100px 0; min-height: 70vh; }
+.error-page h1 { font-size: clamp(28px, 4vw, 36px); font-weight: 600; margin: 24px 0; }
+.error-page p { margin-bottom: 30px; }
+.skip-link { position: fixed; top: -100px; left: 10px; padding: 10px; background: var(--paper); z-index: 100; }
+.skip-link:focus { top: 10px; }
+.page-title { font-size: clamp(28px, 4vw, 36px); font-weight: 600; line-height: 1.4; letter-spacing: -.025em; }
+.content-label { font-size: 12px; line-height: 1.6; color: var(--muted); }
+.site-icon { display: inline-block; flex-shrink: 0; vertical-align: middle; }
+.icon-label { display: inline-flex; align-items: center; gap: 8px; }
+.workspace-shell { max-width: 1280px; }
+[hidden]:not([hidden="until-found"]) { display: none !important; }
+.standalone-error { width: calc(100% - 40px); max-width: 680px; margin-inline: auto; }
+@media (max-width: 800px) { .site-root { padding: 0 28px; } .site-root:not(.workspace-shell) { max-width: 736px; } }
+@media (max-width: 480px) { .site-root { padding: 0 20px; } .site-header { min-height: 76px; gap: 8px; flex-wrap: wrap; padding-block: 12px; } .wordmark { font-size: 18px; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; } }
+
+/* Project-scoped Kumo palette, inherited by portalled menus and dialogs. */
+body[data-project-theme="monochrome"] {
+  --text-color-kumo-link: var(--text-color-kumo-default);
+  --text-color-kumo-brand: var(--text-color-kumo-default);
+  --color-kumo-brand: var(--color-kumo-contrast);
+  --color-kumo-brand-hover: color-mix(in srgb, var(--color-kumo-contrast) 82%, var(--color-kumo-base));
+  --color-kumo-focus: var(--color-kumo-contrast);
+}
+
+/* Softer neutral contrast for the independent project's dark theme. */
+:root[data-mode="dark"]:has(body[data-project-theme="monochrome"]) {
+  --color-kumo-base: var(--color-neutral-900);
+  --color-kumo-contrast: var(--color-neutral-300);
+  --text-color-kumo-default: var(--color-neutral-300);
+  --text-color-kumo-strong: var(--color-neutral-200);
+}

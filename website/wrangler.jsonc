@@ -1,0 +1,21 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "weihua-variable-width",
+  "compatibility_date": "2026-09-09",
+  "assets": {
+    "directory": "./build/client",
+    "html_handling": "drop-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "workers_dev": true,
+  "routes": [
+    {
+      "pattern": "weihuasongguo.com/variable-width",
+      "zone_name": "weihuasongguo.com"
+    },
+    {
+      "pattern": "weihuasongguo.com/variable-width/*",
+      "zone_name": "weihuasongguo.com"
+    }
+  ]
+}

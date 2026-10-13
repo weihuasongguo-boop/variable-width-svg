@@ -1,0 +1,41 @@
+{
+  "name": "@weihuasongguo/variable-width-svg",
+  "version": "0.1.0",
+  "description": "Node API and CLI for the experimental variable-width SVG icon engine.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "author": "Wei Hua Songguo",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "variable-width-svg": "bin/variable-width-svg.mjs"
+  },
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "python/*.py",
+    "python/engine/*.py",
+    "python/engine/*.json",
+    "examples",
+    "README.md",
+    "LICENSE",
+    "LICENSE-DOCS"
+  ],
+  "scripts": {
+    "smoke": "node ./scripts/smoke.mjs",
+    "test:package": "node ./scripts/test-package.mjs"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weihuasongguo-boop/variable-width-svg.git",
+    "directory": "packages/converter"
+  },
+  "homepage": "https://weihuasongguo.com/variable-width"
+}

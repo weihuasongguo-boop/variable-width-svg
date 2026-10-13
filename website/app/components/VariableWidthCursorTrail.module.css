@@ -1,0 +1,30 @@
+.trail{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:10000;color:var(--text-color-kumo-subtle);overflow:hidden}
+@media(prefers-reduced-motion:reduce),(any-pointer:coarse){.trail{display:none}}
+
+/* Native cursor hotspots preserve immediate response; shapes come from the SVG engine. */
+@media(pointer:fine){
+  :global(body:has([data-cursor-trail])){
+    --vw-cursor:url("/variable-width/variable-width-cursors/pointer-light.svg") 4 4;
+    --vw-cursor-action:url("/variable-width/variable-width-cursors/focus-light.svg") 12 12;
+    --vw-cursor-enlarge:url("/variable-width/variable-width-cursors/enlarge-light.svg") 12 12;
+    --vw-cursor-shrink:url("/variable-width/variable-width-cursors/shrink-light.svg") 12 12;
+  }
+  :global(html[data-mode="dark"] body:has([data-cursor-trail])){
+    --vw-cursor:url("/variable-width/variable-width-cursors/pointer-dark.svg") 4 4;
+    --vw-cursor-action:url("/variable-width/variable-width-cursors/focus-dark.svg") 12 12;
+    --vw-cursor-enlarge:url("/variable-width/variable-width-cursors/enlarge-dark.svg") 12 12;
+    --vw-cursor-shrink:url("/variable-width/variable-width-cursors/shrink-dark.svg") 12 12;
+  }
+  :global(body:has([data-cursor-trail])),:global(body:has([data-cursor-trail]) *){cursor:var(--vw-cursor),auto!important}
+  :global(body:has([data-cursor-trail]) :is(a,button,[role="tab"],[role="switch"],[role="combobox"])) ,
+  :global(body:has([data-cursor-trail]) :is(a,button,[role="tab"],[role="switch"],[role="combobox"]) *){cursor:var(--vw-cursor-action),pointer!important}
+  :global(body:has([data-cursor-trail]) [data-cursor="enlarge"]),:global(body:has([data-cursor-trail]) [data-cursor="enlarge"] *){cursor:var(--vw-cursor-enlarge),zoom-in!important}
+  :global(body:has([data-cursor-trail]) [data-cursor="shrink"]),:global(body:has([data-cursor-trail]) [data-cursor="shrink"] *){cursor:var(--vw-cursor-shrink),zoom-out!important}
+  :global(body:has([data-cursor-trail]) :is(input,textarea,[contenteditable="true"])){cursor:text!important}
+  :global(body:has([data-cursor-trail]) :disabled){cursor:not-allowed!important}
+}
+
+@media(pointer:fine) and (prefers-reduced-motion:no-preference){
+  :global(body:has([data-cursor-trail]) #variable-title),
+  :global(body:has([data-cursor-trail]) #variable-title *){cursor:none!important}
+}

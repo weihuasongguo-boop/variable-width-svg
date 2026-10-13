@@ -1,0 +1,230 @@
+@import url("/variable-width/fonts/variable-width/misans-vf.css");
+
+.page{padding-top:20px}.back{font-size:13px}.hero{text-align:center;padding:72px 0 0}.hero h1{font-size:34px;line-height:1.28;letter-spacing:-1.2px;font-weight:500;margin:0}.heroCopy{margin:20px auto 0;font-size:14px;line-height:1.8;color:var(--muted)}.actions{display:flex;align-items:center;justify-content:center;gap:24px;margin-top:28px;font-size:13px}.textLink{font-size:13px}.releaseNote{margin-top:23px;color:var(--muted);font-size:11px}.marquee{overflow:hidden;margin:74px -30px 92px;text-align:center;position:relative}.marqueeRow{position:relative;display:flex;width:max-content;animation:scroll-icons 70s linear infinite}.marqueeGroup{display:flex;gap:48px;padding-right:48px}.marqueeRow img{width:100px;height:100px;object-fit:contain;padding:9px}.marquee>button{margin-top:24px;font-size:11px}.paused .marqueeRow,.marquee:hover .marqueeRow{animation-play-state:paused}@keyframes scroll-icons{to{transform:translateX(-50%)}}.sectionHeading{display:flex;align-items:baseline;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:25px}.sectionHeading h2,.notes h2{font-size:16px;font-weight:500}.sectionHeading p{font-size:12px;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:38px 32px;margin-top:30px}.card{text-align:center;min-width:0;padding:10px 0 18px}.figureOpen{display:grid;place-items:center;width:fit-content;margin:auto}.figureOpen img{width:150px;height:150px}.card h3{margin:14px 0 18px;font-size:12px;font-weight:400;color:var(--muted)}.small{display:block;margin:auto;width:48px;height:48px}.size{display:block;font-size:10px;color:var(--muted);margin:8px 0 12px}.card>button{font-size:11px}.notes{margin-top:55px;padding:32px 0;border-top:1px solid var(--line);display:grid;grid-template-columns:160px 1fr;gap:16px}.notes p{max-width:580px;font-size:13px;line-height:1.9;color:var(--muted)}.dialog{padding:0;border:1px solid var(--line);border-radius:10px;width:calc(100% - 48px);max-width:1200px;max-height:calc(100dvh - 48px);background:var(--paper);color:var(--ink)}.dialog[open]{display:flex;flex-direction:column}.dialog::backdrop{background:rgb(0 0 0 / .22)}.toolbar{display:flex;align-items:center;gap:12px;padding:18px 22px;border-bottom:1px solid var(--line)}.toolbar h2{margin-right:auto;font-size:14px;font-weight:500}.detailScroll{overflow:auto;padding:24px;min-height:0}.detailScroll img{display:block;max-width:none;margin:auto}.status{font-size:12px;color:var(--muted);padding:8px 16px;min-height:30px}@media(max-width:800px){.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 12px}.marquee{margin-inline:0}.figureOpen{display:grid;place-items:center;width:fit-content;margin:auto}.figureOpen img{width:120px;height:120px}.notes{grid-template-columns:1fr}.toolbar{flex-wrap:wrap;padding:14px}}@media(max-width:480px){.hero{padding-top:55px}.hero h1{font-size:30px}.sectionHeading{display:block}.sectionHeading p{margin-top:10px}.marquee{margin-top:56px;margin-bottom:54px}.marqueeGroup{gap:28px;padding-right:28px}.marqueeRow img{width:84px;height:84px}.dialog{width:calc(100% - 20px)}}@media(prefers-reduced-motion:reduce){.marqueeRow{animation:none}}
+
+.npmPackage{display:flex;justify-content:center;align-items:center;gap:10px;margin:26px auto 0;width:fit-content;max-width:100%;font-size:12px}.npmPackage span{font-size:10px;color:var(--muted)}.npmPackage code{overflow-wrap:anywhere}.releaseNote{margin-top:10px}.npmDoc{min-width:0}.npmDoc>code{font-size:13px;overflow-wrap:anywhere}.npmDoc p{margin:12px 0 20px}.npmDoc details{font-size:12px;color:var(--muted)}.npmDoc summary{cursor:pointer}.npmDoc pre{overflow:auto;max-width:100%;padding:18px 0;font-size:12px;line-height:1.8}
+
+
+
+.actions .npmPackage{margin:0}.actions{flex-wrap:wrap;gap:14px 24px}.marquee{margin-bottom:60px}.grid{margin-top:0}.algorithmContent{min-width:0}.algorithmContent section+section{margin-top:26px}.algorithmContent h3{font-size:14px;line-height:1.6;font-weight:500;margin:0 0 8px}.algorithmContent p{max-width:none}
+
+.figureOpen{display:grid;place-items:center;width:fit-content;margin:auto}.figureOpen img{width:48px;height:48px}.card h3{margin:10px 0 8px}.grid{gap:24px 32px}.algorithmDemo{width:100%;height:300px;border:0;margin-top:20px;display:block}@media(max-width:640px){.grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px 8px}.card h3{font-size:10px;overflow-wrap:anywhere}.algorithmDemo{height:315px}}
+
+.projectNav{display:flex;gap:22px;justify-content:flex-end;font-size:13px;margin:12px 0 24px}.notes:has(.algorithmContent){display:block}.notes:has(.algorithmContent)>h2{margin-bottom:36px}.algorithmContent>.algorithmRow{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:64px;align-items:center}.algorithmRow>div{min-width:0}.algorithmRow .algorithmDemo{margin-top:0}.subpageHeading{margin:56px 0 40px}.subpageHeading h1{font-size:28px;font-weight:500}.subpageHeading p{font-size:13px;color:var(--muted)}.documentation{max-width:720px;margin:auto}.documentation>section{padding:30px 0;border-top:1px solid var(--line)}.documentation h2{font-size:17px;font-weight:500;margin:0 0 14px}.documentation h3{font-size:14px;font-weight:500;margin:26px 0 8px}.documentation p{font-size:13px;line-height:1.95;color:var(--muted);margin:10px 0}.documentation code{overflow-wrap:anywhere}@media(max-width:1000px){.algorithmContent>.algorithmRow{grid-template-columns:1fr;gap:20px}.projectNav{flex-wrap:wrap;gap:16px}}
+
+.algorithmContent>section .algorithmDemo{aspect-ratio:1 / 1;height:auto;min-height:0;width:100%;margin:0}
+
+.detailDialog{display:flex;flex-direction:column;max-width:min(1200px,calc(100vw - 24px));max-height:calc(100dvh - 32px)}.detailDialog .detailScroll{overflow:auto}.algorithmRow>figure{min-width:0;max-width:360px;justify-self:start}@media(max-width:1000px){.algorithmRow>figure{justify-self:center}}
+
+.projectHeader{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:74px}.projectBrand{font-size:14px;font-weight:600;white-space:nowrap}.projectHeader .projectNav{margin:0;gap:22px}.page{padding-bottom:64px}@media(max-width:480px){.projectHeader{flex-wrap:wrap;gap:16px;padding:12px 0}.projectHeader .projectNav{gap:18px;justify-content:flex-start}}
+
+.notes:has(.algorithmContent){border:0;padding:0}.algorithmContent h3{font-size:20px;line-height:1.5;margin-bottom:16px}.algorithmContent p{font-size:16px;line-height:1.9;color:var(--text-color-kumo-subtle)}.algorithmContent section+section{margin-top:48px}.projectFooter{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:96px;padding:24px 0 0;font-size:13px;color:var(--text-color-kumo-subtle)}.projectFooter>div{display:flex;gap:24px}.documentation pre{overflow:auto;padding:20px 0;font-size:13px;line-height:1.8}@media(max-width:480px){.projectFooter{flex-wrap:wrap;margin-top:64px}.algorithmContent h3{font-size:19px}}
+
+
+/* Shared rectangular cells for the independent project. */
+.page{--line:color-mix(in srgb,var(--color-kumo-line) 65%,var(--color-kumo-base));padding:0;border-inline:1px solid var(--line)}
+.projectHeader{gap:0;min-height:72px;border-block:0;align-items:stretch}
+.projectBrand{display:flex;align-items:center;padding:24px}
+.projectHeader .projectNav{gap:0;align-items:stretch}
+.projectNav>a{display:flex;align-items:center;padding:20px 24px;border-left:0}
+.hero{padding:72px 24px 48px}
+.hero h1{padding:0}
+.heroCopy{max-width:none;margin:20px 0 0;padding:0;border:0}
+.actions{margin:28px 0 0;gap:14px 24px;align-items:center}
+.actions>a{padding:0;display:flex;align-items:center;justify-content:center}
+.actions>a+a{border:0}
+.releaseNote{margin:10px 0 0;padding:0;border:0}
+.marquee{margin:0;padding-block:32px;border-block:0;text-align:initial}
+.marqueeGroup{gap:0;padding:0}
+.marqueeIcon{display:grid;place-items:center;flex:none;width:148px;height:148px}
+.marqueeRow img{display:block;box-sizing:border-box;width:72px;height:72px;padding:0;border:0;transform-origin:center;will-change:transform}
+.notes:has(.algorithmContent){margin:0}
+.algorithmContent>.algorithmRow{grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:0;align-items:stretch;border-bottom:0}
+.algorithmContent section+section{margin:0}
+.algorithmRow>figure{max-width:none;justify-self:stretch;border-right:1px solid var(--line)}
+.algorithmRow>div{padding:40px;display:flex;flex-direction:column;justify-content:center}
+.projectFooter{margin:0;padding:0;gap:0;align-items:stretch;min-height:72px}
+.projectFooter>span{display:flex;align-items:center;padding:24px}
+.projectFooter>div{gap:0;align-items:stretch}
+.projectFooter a{display:flex;align-items:center;padding:24px;border-left:1px solid var(--line)}
+.subpageHeading{margin:0;padding:40px 24px;border-bottom:0}
+.subpageHeading p{margin-top:12px}
+.grid{gap:0}
+.card{padding:32px 12px;border-right:1px solid var(--line);border-bottom:0}
+.card:nth-child(6n){border-right:0}
+.status{padding:16px 24px;margin:0;border-bottom:0}
+.documentation{max-width:none;margin:0}
+.documentation>section{padding:32px 40px;border-top:0;border-bottom:0}
+.documentation>section>h2{margin:-32px -40px 24px;padding:20px 40px;border-bottom:0}
+.documentation>section>p,.documentation>section>article{max-width:720px}
+.documentation article+article{border-top:0;margin-top:24px;padding-top:4px}
+@media(max-width:800px) and (min-width:641px){.card:nth-child(6n){border-right:1px solid var(--line)}.card:nth-child(2n){border-right:0}}
+@media(max-width:1000px){
+  .algorithmContent>.algorithmRow{grid-template-columns:1fr;gap:0}
+  .algorithmRow>figure{width:min(100%,360px);justify-self:center;border-right:0}
+  .algorithmRow>div{border-top:0;padding:28px 24px}
+}
+@media(max-width:640px){.card:nth-child(6n){border-right:1px solid var(--line)}.card:nth-child(3n){border-right:0}}
+@media(max-width:480px){
+  .projectHeader{padding:0;gap:0;flex-direction:column}
+  .projectBrand{padding:20px}
+  .projectHeader .projectNav{gap:0;display:grid;grid-template-columns:repeat(3,1fr);border-top:0}
+  .projectNav>a{padding:16px 8px;justify-content:center}
+  .projectNav>a:first-child{border-left:0}
+  .hero{padding:48px 20px 40px}
+  .actions{display:flex;flex-wrap:wrap}
+  .actions>a{padding:0}
+  .actions>a+a{border:0}
+  .marquee{padding-block:24px}
+  .marqueeIcon{width:112px;height:112px}.marqueeRow img{width:60px;height:60px}
+  .projectFooter{margin:0;flex-direction:row}
+  .projectFooter>div{border-top:0}
+  .projectFooter a{flex:1;justify-content:center}
+  .projectFooter a:first-child{border-left:0}
+  .documentation>section{padding:24px}
+  .documentation>section>h2{margin:-24px -24px 20px;padding:20px 24px}
+}
+
+/* Horizontal rules continue beyond the content rails without widening layout. */
+.projectHeader,.hero,.algorithmRow,
+.projectFooter,.subpageHeading,.card,.figures,.status,.documentation>section,
+.documentation>section>h2,.notes:has(.algorithmContent){position:relative}
+.projectHeader::after,.hero::after,.notes:has(.algorithmContent)::after,
+.page>.subpageHeading::after,.figures::after,.status::after,.documentation::after{
+  content:"";position:absolute;pointer-events:none;bottom:0;left:0;
+  width:0;height:1px;background:none;
+  box-shadow:0 0 0 100vw var(--line);clip-path:inset(0 -100vw)
+}
+.notes:has(.algorithmContent)::before{
+  content:"";position:absolute;pointer-events:none;top:0;left:0;z-index:1;
+  width:0;height:1px;background:none;
+  box-shadow:0 0 0 100vw var(--line);clip-path:inset(0 -100vw)
+}
+/* Step boundaries stay inside the algorithm section. */
+.algorithmRow::after{content:"";position:absolute;pointer-events:none;bottom:0;left:0;width:100%;height:1px;background:var(--line)}
+.algorithmRow:last-child::after{content:none}
+@media(max-width:1000px){
+  .algorithmRow>div{position:relative}
+  .algorithmRow>div::before{content:"";position:absolute;pointer-events:none;top:0;left:0;width:100%;height:1px;background:var(--line)}
+}
+@media(max-width:480px){
+  .projectHeader .projectNav,.projectFooter>div{position:relative}
+  .projectHeader .projectNav::before,.projectFooter>div::before{content:"";position:absolute;pointer-events:none;top:0;left:0;width:100%;height:1px;background:var(--line)}
+}
+
+/* Internal gallery rules stop at the content rails; only the section boundary bleeds. */
+.grid>.card::after{position:absolute;pointer-events:none;bottom:0;right:0;left:auto;width:600%;height:1px;background:var(--line)}
+.grid>.card::after{content:none}
+.grid>.card:nth-child(6n)::after{content:""}
+@media(max-width:800px){
+  .grid>.card:nth-child(n)::after{content:none}
+  .grid>.card:nth-child(2n)::after{content:"";width:200%}
+}
+@media(max-width:640px){
+  .grid>.card:nth-child(n)::after{content:none}
+  .grid>.card:nth-child(3n)::after{content:"";width:300%}
+}
+
+/* Documentation is one reading surface with a shared left baseline. */
+.documentation{position:relative;padding:40px 24px 48px}
+.documentation>.subpageHeading{margin:0 0 40px;padding:0;border:0}
+.documentation>section{margin:0;padding:0;border:0}
+.documentation>section+section{margin-top:36px}
+.documentation>section>h2{margin:0 0 14px;padding:0;border:0}
+.documentation article+article{border:0;padding:0;margin-top:24px}
+.documentation>section>p,.documentation>section>article,.documentation pre{max-width:720px}
+@media(max-width:480px){.documentation{padding:32px 20px 40px}.documentation>.subpageHeading{margin-bottom:32px}}
+
+/* Project-wide language control, alongside navigation. */
+.headerActions{display:flex;align-items:center;min-width:0}
+.languageToggle{display:flex;align-items:center;gap:12px;padding:0 24px 0 8px}
+@media(max-width:640px){
+  .projectHeader{flex-direction:column;align-items:stretch}
+  .projectBrand{padding:20px}
+  .headerActions{justify-content:space-between;flex-wrap:wrap}
+  .projectHeader .projectNav{display:flex;flex:1;gap:0;justify-content:flex-start}
+  .projectNav>a{padding:16px 10px}
+  .languageToggle{padding:8px 12px}
+}
+@media(max-width:640px){
+  .languageToggle{position:absolute;top:20px;right:12px;padding:0}
+  .headerActions{width:100%}
+  .projectHeader .projectNav{flex-wrap:nowrap;justify-content:space-between}
+}
+
+/* The gallery contains only icons, each in a square cell. */
+.grid>.card{aspect-ratio:1;display:grid;place-items:center;padding:0}
+.grid>.card:last-child::after{content:none}
+
+
+/* True variable-weight faces, scoped to the interactive hero title. */
+@font-face{font-family:"VW Recursive Mono";src:url("/variable-width/fonts/variable-width/recursive-mono-casual-1000.woff2") format("woff2");font-weight:300 1000;font-style:normal;font-display:swap}
+.hero .hoverTitle{font-family:"VW Recursive Mono","VW MiSans VF",monospace;font-weight:300;letter-spacing:-.04em;font-synthesis:none;width:fit-content;max-width:100%;margin-inline:auto}
+.hoverTitle [data-weight-char]{font-weight:var(--hover-weight,300);transition:font-weight 120ms ease-out}
+@media(max-width:480px){.hero .hoverTitle{font-size:clamp(22px,6.3vw,30px)}}
+@media(prefers-reduced-motion:reduce){.hoverTitle [data-weight-char]{transition:none}}
+
+.hoverTitle:hover:not([data-weight-entering]) [data-weight-char]{transition:none}
+
+/* Inline 2 × 2 previews share the gallery's square tracks. */
+.gallerySurface{container-type:inline-size;overflow:hidden}
+.gallerySurface .grid{grid-auto-rows:calc(100cqw / 6);grid-template-columns:repeat(6,minmax(0,1fr))}
+.gallerySurface .grid>.card{aspect-ratio:auto;border:0;border-right:1px solid var(--line);border-bottom:1px solid var(--line);display:flex;flex-direction:column;min-height:0}
+.gallerySurface .grid>.card::after{content:none}
+.gallerySurface .grid>.card[data-right-edge]{border-right:0}
+.gallerySurface .figureOpen{width:100%;height:100%;min-height:0;flex:1;border-radius:0;padding:12px;background:transparent;box-shadow:none}
+.gallerySurface .figureOpen:hover,.gallerySurface .figureOpen:active{background:transparent;box-shadow:none}
+.gallerySurface .figureOpen img{width:48px;height:48px;object-fit:contain}
+.gallerySurface .expandedCard .figureOpen img{width:min(160px,70%);height:auto;aspect-ratio:1}
+.galleryActions{display:flex;align-items:center;justify-content:flex-end;gap:4px;padding:12px;flex-wrap:wrap;flex:none;font-size:12px}
+
+@media(max-width:800px) and (min-width:641px){.gallerySurface .grid{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:calc(100cqw / 2)}}
+@media(max-width:640px){.gallerySurface .grid{grid-template-columns:repeat(3,minmax(0,1fr));grid-auto-rows:calc(100cqw / 3)}.galleryActions{padding:6px;gap:0}}
+
+/* Keep the controls out of layout while the square cell expands or collapses. */
+.gallerySurface .expandedCard{z-index:1}
+.gallerySurface .expandedCard .figureOpen{padding-bottom:52px}
+.galleryActions{position:absolute;inset:auto 0 0;z-index:2}
+
+
+/* Keep project navigation available across all three project pages. */
+.page{--project-header-height:72px}
+.projectHeader{position:sticky;top:0;z-index:30;background:var(--color-kumo-base)}
+.projectHeader::before{content:"";position:absolute;inset:0 calc(50% - 50vw);z-index:-1;background:var(--color-kumo-base);pointer-events:none}
+.page [id]{scroll-margin-top:calc(var(--project-header-height) + 24px)}
+@media(max-width:640px){.page{--project-header-height:112px}}
+
+.navIcons{display:flex;align-items:center;gap:8px;flex:none}
+.navIcons>a{display:grid;place-items:center;width:32px;height:32px}
+@media(max-width:640px){.languageToggle{position:static;margin-left:auto;padding:8px 12px 8px 0}.headerActions{flex-wrap:nowrap}.projectHeader .projectNav{flex:0 1 auto;justify-content:flex-start}.projectNav>a{padding-inline:12px}}
+/* Navigation spacing: text links, icon actions, then language selection. */
+.headerActions{gap:28px;padding-right:24px}
+.projectHeader .projectNav{gap:24px}
+.projectNav>a{padding:12px 0;min-height:40px}
+.languageToggle{gap:24px;padding:0}
+.navIcons{gap:8px}
+@media(max-width:640px){
+  .headerActions{gap:20px;padding:8px 20px 16px;justify-content:space-between}
+  .projectHeader .projectNav{gap:20px;flex:none}
+  .projectNav>a{padding:0;min-height:32px}
+  .languageToggle{margin:0;padding:0;gap:20px}
+  .projectHeader .projectNav::before{content:none}
+}
+@media(max-width:360px){
+  .headerActions{gap:12px;padding-inline:16px}
+  .projectHeader .projectNav{gap:16px}
+  .languageToggle{gap:12px}
+  .navIcons{gap:4px}
+}
+
+.galleryHeading{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:24px;border-bottom:1px solid var(--line)}
+@media(max-width:640px){.galleryHeading{padding:20px}}
+
+/* Draw the rails at the same coordinates as the page borders, above the sticky backdrop. */
+.projectHeader{margin-inline:-1px}
+.headerRails{position:absolute;inset:0;border-inline:1px solid var(--line);pointer-events:none;z-index:1}
+.page>.subpageHeading p{max-width:none;line-height:1.8}
+
+.installCommand{display:flex;align-items:center;justify-content:center;width:fit-content;padding:6px 6px 6px 12px;gap:12px;margin:28px auto 0;max-width:100%;min-width:0}.installCommand code{font-size:13px;overflow-wrap:anywhere;text-align:left;min-width:0}.installCommand button{flex-shrink:0}
+
+.projectBrand{gap:10px}.projectBrand img{display:block;flex-shrink:0}

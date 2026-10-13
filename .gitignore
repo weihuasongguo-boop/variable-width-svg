@@ -1,0 +1,10 @@
+node_modules/
+website/build/
+website/.react-router/
+.wrangler/
+.env
+.env.*
+*.log
+*.tgz
+__pycache__/
+.DS_Store

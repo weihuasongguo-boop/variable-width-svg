@@ -1,0 +1,1 @@
+export default {ssr:false,prerender:['/variable-width','/variable-width/icons','/variable-width/docs']};

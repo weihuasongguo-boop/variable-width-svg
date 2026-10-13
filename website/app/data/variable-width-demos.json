@@ -1,0 +1,83 @@
+{
+  "width": {
+    "icon": "beach",
+    "variants": {
+      "original": {
+        "src": "/variable-width/variable-width-demos/width-original.svg"
+      },
+      "variable": {
+        "src": "/variable-width/variable-width-demos/width-variable.svg"
+      }
+    }
+  },
+  "interpolation": {
+    "icon": "route_waypoints",
+    "variants": {
+      "linear": {
+        "src": "/variable-width/variable-width-demos/interpolation-linear.svg"
+      },
+      "smooth": {
+        "src": "/variable-width/variable-width-demos/interpolation-smooth.svg"
+      }
+    }
+  },
+  "bend": {
+    "icon": "check",
+    "variants": {
+      "middle": {
+        "src": "/variable-width/variable-width-demos/bend-middle.svg"
+      },
+      "corner": {
+        "src": "/variable-width/variable-width-demos/bend-corner.svg"
+      }
+    }
+  },
+  "endpoint": {
+    "icon": "beer",
+    "variants": {
+      "off": {
+        "src": "/variable-width/variable-width-demos/endpoint-off.svg"
+      },
+      "on": {
+        "src": "/variable-width/variable-width-demos/endpoint-on.svg"
+      }
+    }
+  },
+  "symmetry": {
+    "icon": "airplane_top",
+    "variants": {
+      "off": {
+        "src": "/variable-width/variable-width-demos/symmetry-off.svg"
+      },
+      "on": {
+        "src": "/variable-width/variable-width-demos/symmetry-on.svg"
+      }
+    }
+  },
+  "bounds": {
+    "icon": "folder_open",
+    "variants": {
+      "off": {
+        "src": "/variable-width/variable-width-demos/bounds-off.svg"
+      },
+      "on": {
+        "src": "/variable-width/variable-width-demos/bounds-on.svg"
+      }
+    }
+  },
+  "fitting": {
+    "icon": "motorcycle",
+    "variants": {
+      "dense": {
+        "src": "/variable-width/variable-width-demos/fitting-dense.svg",
+        "nodes": 3597,
+        "nodesSrc": "/variable-width/variable-width-demos/fitting-dense-nodes.svg"
+      },
+      "optimized": {
+        "src": "/variable-width/variable-width-demos/fitting-optimized.svg",
+        "nodes": 70,
+        "nodesSrc": "/variable-width/variable-width-demos/fitting-optimized-nodes.svg"
+      }
+    }
+  }
+}

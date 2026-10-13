@@ -1,0 +1,17 @@
+{
+  "offsetCurvatureTrigger": 0.82,
+  "endpointEaseInBaseWidths": 0.5,
+  "endpointEaseMaxIntervalFraction": 0.2,
+  "fairingRadiusInBaseWidths": 0.4,
+  "fairingSampleSpacingInBaseWidths": 0.03,
+  "symmetryToleranceInBaseWidths": 0.3,
+  "outputSimplificationToleranceInBaseWidths": 0,
+  "linearSegmentToleranceInBaseWidths": 0,
+  "curveFitToleranceInBaseWidths": 0.03,
+  "loopAreaLimitInBaseWidthsSquared": 0.5,
+  "compensation": {
+    "mode": "per-path-visible-bounds",
+    "tolerance": 0.0001
+  },
+  "description": "Shared settings for every v2 candidate. Curvature triggers contour fairing, not pointwise width clamps. Small offset loops are removed; large topology changes fail. Locked outer sides are preserved."
+}
