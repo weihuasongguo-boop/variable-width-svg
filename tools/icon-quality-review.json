@@ -41,6 +41,14 @@
     "table": "Variable grid lines produce uneven junctions and inconsistent cell spaces.",
     "table_merge_cells": "Variable grid lines produce uneven junctions and inconsistent cell spaces.",
     "table_split_columns": "Short internal dividers look pinched after conversion.",
-    "table_split_rows": "Short internal dividers look pinched after conversion."
+    "table_split_rows": "Short internal dividers look pinched after conversion.",
+    "car": "Removed at the author’s request during gallery curation.",
+    "car_repair": "Removed at the author’s request during gallery curation.",
+    "car_wash": "Removed at the author’s request during gallery curation.",
+    "itinerary_add": "Removed at the author’s request during gallery curation.",
+    "itinerary_copy": "Removed at the author’s request during gallery curation.",
+    "itinerary_download": "Removed at the author’s request during gallery curation.",
+    "itinerary_edit": "Removed at the author’s request during gallery curation.",
+    "pi_logo": "Removed at the author’s request during gallery curation."
   }
 }
