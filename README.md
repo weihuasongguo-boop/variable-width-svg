@@ -36,7 +36,7 @@ The production build contains only the three project pages and their assets. It 
 
 ## Deployment
 
-The project uses an independent Cloudflare Worker with static assets. Only `weihuasongguo.com/variable-width` and `weihuasongguo.com/variable-width/*` are routed to it. The existing main website remains on its original Cloudflare Pages project. There is no cross-site navigation or automated article notification.
+The project uses an independent Cloudflare Worker with static assets. A prefix route accepts URLs with query parameters; its request handler passes unrelated longer prefixes through to the original website. Only `weihuasongguo.com/variable-width` and `weihuasongguo.com/variable-width/*` are routed to it. The existing main website remains on its original Cloudflare Pages project. There is no cross-site navigation or automated article notification.
 
 ```sh
 cd website
@@ -45,7 +45,7 @@ npm run build
 npm run deploy
 ```
 
-`wrangler.jsonc` contains the route and asset configuration; it contains no credentials. The deploying account must have access to the domain's Cloudflare zone. Remove this Worker's two routes to detach the project without changing the main website. Do not deploy this artifact over the existing Pages project.
+`wrangler.jsonc` contains the route and asset configuration; it contains no credentials. The deploying account must have access to the domain's Cloudflare zone. Remove this Worker's route to detach the project without changing the main website. Do not deploy this artifact over the existing Pages project.
 
 ## Converter
 
