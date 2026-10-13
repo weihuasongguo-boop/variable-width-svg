@@ -1,0 +1,1738 @@
+[
+  {
+    "name": "align_left",
+    "source": "<svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M3 3v18\" stroke-width=\"2\"/><rect height=\"5\" rx=\"1.5\" width=\"14\" x=\"7\" y=\"4\"/><rect height=\"5\" rx=\"1.5\" width=\"9\" x=\"7\" y=\"15\"/></svg>",
+    "specs": {
+      "0": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.1
+          ],
+          [
+            0.5,
+            2.5
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "1": {
+        "axis": "y",
+        "domain": [
+          4.0,
+          9.0
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "2": {
+        "axis": "y",
+        "domain": [
+          15.0,
+          20.0
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      }
+    },
+    "retained": []
+  },
+  {
+    "name": "align_top",
+    "source": "<svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M3 3h18\" stroke-width=\"2\"/><rect height=\"14\" rx=\"1.5\" width=\"5\" x=\"4\" y=\"7\"/><rect height=\"9\" rx=\"1.5\" width=\"5\" x=\"15\" y=\"7\"/></svg>",
+    "specs": {
+      "0": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.1
+          ],
+          [
+            0.5,
+            2.5
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "1": {
+        "axis": "y",
+        "domain": [
+          7.0,
+          21.0
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "2": {
+        "axis": "y",
+        "domain": [
+          7.0,
+          16.0
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      }
+    },
+    "retained": []
+  },
+  {
+    "name": "approval",
+    "source": "<svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M11.3 3.3q0.7 -0.3 1.4 0L19 5.7q1 0.3 1 1.3v5c0 5 -4 8 -8 9c-4 -1 -8 -4 -8 -9V7q0 -1 1 -1.3Z\" stroke-width=\"2\"/><path d=\"M8 12L10.6667 14.6667L16 9.3333\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.8\"/></svg>",
+    "specs": {
+      "0": {
+        "axis": "y",
+        "domain": [
+          3.150205761316873,
+          21.0
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "1": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            0.9900000000000001
+          ],
+          [
+            0.33333541664388056,
+            2.25
+          ],
+          [
+            1,
+            0.9900000000000001
+          ]
+        ],
+        "interpolation": "pchip",
+        "reason": "structural-single-corner"
+      }
+    },
+    "retained": []
+  },
+  {
+    "name": "bezier",
+    "source": "<svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M3 20C3 8 21 8 21 20\" stroke-width=\"2\"/><path d=\"M3 5.5h7\" stroke-width=\"2\"/><path d=\"M14 5.5h7\" stroke-width=\"2\"/><rect height=\"4\" rx=\"1\" width=\"4\" x=\"10\" y=\"3.5\"/><path d=\"M2.995 5.5h0.01\" stroke-width=\"3\"/><path d=\"M20.995 5.5h0.01\" stroke-width=\"3\"/></svg>",
+    "specs": {
+      "0": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.1
+          ],
+          [
+            0.5,
+            2.5
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "1": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.1
+          ],
+          [
+            0.5,
+            2.5
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "2": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.1
+          ],
+          [
+            0.5,
+            2.5
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "3": {
+        "axis": "y",
+        "domain": [
+          3.5,
+          7.5
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      }
+    },
+    "retained": [
+      {
+        "element": "path 4",
+        "reason": "\u5706\u70b9\u6216\u6781\u77ed\u7b14\u753b\uff0c\u4fdd\u7559\u539f\u7a3f"
+      },
+      {
+        "element": "path 5",
+        "reason": "\u5706\u70b9\u6216\u6781\u77ed\u7b14\u753b\uff0c\u4fdd\u7559\u539f\u7a3f"
+      }
+    ]
+  },
+  {
+    "name": "curve",
+    "source": "<svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"4\" cy=\"19\" r=\"2\"/><circle cx=\"20\" cy=\"5\" r=\"2\"/><path d=\"M4 17C4 3 20 21 20 7\" stroke-width=\"2\"/></svg>",
+    "specs": {
+      "0": {
+        "axis": "y",
+        "domain": [
+          17.0,
+          21.0
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "1": {
+        "axis": "y",
+        "domain": [
+          3.0,
+          7.0
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "2": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.1
+          ],
+          [
+            0.5,
+            2.2
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip",
+        "reason": "structural-shared-endpoint",
+        "buttStart": false,
+        "buttEnd": false,
+        "trimStart": 0.8,
+        "trimEnd": 0.8
+      }
+    },
+    "retained": []
+  },
+  {
+    "name": "distribute_horizontal",
+    "source": "<svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M3 3v18\" stroke-width=\"2\"/><path d=\"M21 3v18\" stroke-width=\"2\"/><rect height=\"10\" rx=\"1.5\" width=\"4\" x=\"6.5\" y=\"7\"/><rect height=\"10\" rx=\"1.5\" width=\"4\" x=\"13.5\" y=\"7\"/></svg>",
+    "specs": {
+      "0": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.1
+          ],
+          [
+            0.5,
+            2.5
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "1": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.1
+          ],
+          [
+            0.5,
+            2.5
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "2": {
+        "axis": "y",
+        "domain": [
+          7.0,
+          17.0
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "3": {
+        "axis": "y",
+        "domain": [
+          7.0,
+          17.0
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      }
+    },
+    "retained": []
+  },
+  {
+    "name": "eye_enlarge",
+    "source": "<svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M3 14.25C6 2.25 18 2.25 21 14.25\"/><path d=\"M5 17.25C9 22.25 15 22.25 19 17.25\"/><circle cx=\"12\" cy=\"13.25\" r=\"3.5\"/><path d=\"M6.6563 7.5L5.18 5.15\"/><path d=\"M12 5.25V3\"/><path d=\"M17.3437 7.5L18.82 5.15\"/></svg>",
+    "specs": {
+      "0": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.5
+          ],
+          [
+            0.5,
+            2.5
+          ],
+          [
+            1,
+            1.5
+          ]
+        ],
+        "interpolation": "pchip",
+        "reason": "structural-curved-group"
+      },
+      "1": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.5
+          ],
+          [
+            0.5,
+            2.5
+          ],
+          [
+            1,
+            1.5
+          ]
+        ],
+        "interpolation": "pchip",
+        "reason": "structural-curved-group"
+      },
+      "2": {
+        "axis": "y",
+        "domain": [
+          9.75,
+          16.75
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "3": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip",
+        "reason": "structural-short-stroke"
+      },
+      "4": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip",
+        "reason": "structural-short-stroke"
+      },
+      "5": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip",
+        "reason": "structural-short-stroke"
+      }
+    },
+    "retained": []
+  },
+  {
+    "name": "image_contrast",
+    "source": "<svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M5.636 18.364L18.364 5.636\"/><path d=\"M12 17.5l5.5 -5.5\"/></svg>",
+    "specs": {
+      "0": {
+        "axis": "y",
+        "domain": [
+          3.0,
+          21.0
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "1": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.1
+          ],
+          [
+            0.5,
+            2.2
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip",
+        "reason": "structural-shared-endpoint",
+        "buttStart": false,
+        "buttEnd": false,
+        "trimStart": 0.4,
+        "trimEnd": 0.4
+      },
+      "2": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.1
+          ],
+          [
+            0.5,
+            2.5
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip"
+      }
+    },
+    "retained": []
+  },
+  {
+    "name": "image_exposure",
+    "source": "<svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><rect height=\"17\" rx=\"3\" width=\"17\" x=\"3.5\" y=\"3.5\"/><path d=\"M7 17L17 7\"/><path d=\"M6.5 8.5h4\"/><path d=\"M8.5 6.5v4\"/><path d=\"M14 17h3.5\"/></svg>",
+    "specs": {
+      "0": {
+        "axis": "y",
+        "domain": [
+          3.5,
+          20.5
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "1": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.1
+          ],
+          [
+            0.5,
+            2.5
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "2": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            2.0
+          ],
+          [
+            1,
+            2.0
+          ]
+        ],
+        "interpolation": "pchip",
+        "reason": "structural-constant"
+      },
+      "3": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            2.0
+          ],
+          [
+            1,
+            2.0
+          ]
+        ],
+        "interpolation": "pchip",
+        "reason": "structural-constant"
+      },
+      "4": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip",
+        "reason": "structural-short-stroke"
+      }
+    },
+    "retained": []
+  },
+  {
+    "name": "line",
+    "source": "<svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"5\" cy=\"19\" r=\"2\"/><circle cx=\"19\" cy=\"5\" r=\"2\"/><path d=\"M6.5 17.5l11 -11\" stroke-width=\"2\"/></svg>",
+    "specs": {
+      "0": {
+        "axis": "y",
+        "domain": [
+          17.0,
+          21.0
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "1": {
+        "axis": "y",
+        "domain": [
+          3.0,
+          7.0
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "2": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.1
+          ],
+          [
+            0.5,
+            2.2
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip",
+        "reason": "structural-shared-endpoint",
+        "buttStart": false,
+        "buttEnd": false,
+        "trimStart": 0.8,
+        "trimEnd": 0.8
+      }
+    },
+    "retained": []
+  },
+  {
+    "name": "lip_color",
+    "source": "<svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><rect height=\"9\" rx=\"2\" width=\"10\" x=\"7\" y=\"12\"/><path d=\"M9 12V7q0 -1 1 -2l4 -2q1 -0.5 1 1v8\"/><path d=\"M9 8h6\"/></svg>",
+    "specs": {
+      "0": {
+        "axis": "y",
+        "domain": [
+          12.0,
+          21.0
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "1": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.1
+          ],
+          [
+            0.5,
+            2.2
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip",
+        "reason": "structural-shared-endpoint",
+        "buttStart": false,
+        "buttEnd": false,
+        "trimStart": 0.4,
+        "trimEnd": 0.4
+      },
+      "2": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.1
+          ],
+          [
+            0.5,
+            2.2
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip",
+        "reason": "structural-shared-endpoint",
+        "buttStart": false,
+        "buttEnd": false,
+        "trimStart": 0.4,
+        "trimEnd": 0.4
+      }
+    },
+    "retained": []
+  },
+  {
+    "name": "opacity",
+    "source": "<svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M12 3v18\" stroke-width=\"2\"/><path d=\"M14.995 7.5h0.01\" stroke-width=\"1.3\"/><path d=\"M14.995 12h0.01\" stroke-width=\"1.3\"/><path d=\"M14.995 16.5h0.01\" stroke-width=\"1.3\"/><path d=\"M17.995 10h0.01\" stroke-width=\"1.3\"/><path d=\"M17.995 14h0.01\" stroke-width=\"1.3\"/></svg>",
+    "specs": {
+      "0": {
+        "axis": "y",
+        "domain": [
+          3.0,
+          21.0
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "1": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.1
+          ],
+          [
+            0.5,
+            2.2
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip",
+        "reason": "structural-shared-endpoint",
+        "buttStart": false,
+        "buttEnd": false,
+        "trimStart": 0.4,
+        "trimEnd": 0.4
+      }
+    },
+    "retained": [
+      {
+        "element": "path 2",
+        "reason": "\u5706\u70b9\u6216\u6781\u77ed\u7b14\u753b\uff0c\u4fdd\u7559\u539f\u7a3f"
+      },
+      {
+        "element": "path 3",
+        "reason": "\u5706\u70b9\u6216\u6781\u77ed\u7b14\u753b\uff0c\u4fdd\u7559\u539f\u7a3f"
+      },
+      {
+        "element": "path 4",
+        "reason": "\u5706\u70b9\u6216\u6781\u77ed\u7b14\u753b\uff0c\u4fdd\u7559\u539f\u7a3f"
+      },
+      {
+        "element": "path 5",
+        "reason": "\u5706\u70b9\u6216\u6781\u77ed\u7b14\u753b\uff0c\u4fdd\u7559\u539f\u7a3f"
+      },
+      {
+        "element": "path 6",
+        "reason": "\u5706\u70b9\u6216\u6781\u77ed\u7b14\u753b\uff0c\u4fdd\u7559\u539f\u7a3f"
+      }
+    ]
+  },
+  {
+    "name": "pen_tool",
+    "source": "<svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M3.5 20.5C5 17 5.3 12.2 6.7 9.2C7.4 7.6 9.4 6.7 12 5.5L18.5 12C17.3 14.6 16.4 16.6 14.8 17.3C11.8 18.7 7 19 3.5 20.5Z\" stroke-width=\"2\"/><path d=\"M12 5.5L14.2 3.3Q15 2.5 15.8 3.3L20.7 8.2Q21.5 9 20.7 9.8L18.5 12\" stroke-width=\"2\"/><circle cx=\"11.5\" cy=\"12.5\" r=\"1.8\"/><path d=\"M3.5 20.5L10.2 13.8\" stroke-width=\"2\"/></svg>",
+    "specs": {
+      "0": {
+        "axis": "y",
+        "domain": [
+          5.5,
+          20.5
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "1": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.1
+          ],
+          [
+            0.5,
+            2.2
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip",
+        "reason": "structural-shared-endpoint",
+        "buttStart": false,
+        "buttEnd": false,
+        "trimStart": 0.4,
+        "trimEnd": 0.4
+      },
+      "2": {
+        "axis": "y",
+        "domain": [
+          10.7,
+          14.3
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "3": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.1
+          ],
+          [
+            0.5,
+            2.2
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip",
+        "reason": "structural-shared-endpoint",
+        "buttStart": false,
+        "buttEnd": false,
+        "trimStart": 0.4,
+        "trimEnd": 0.8
+      }
+    },
+    "retained": []
+  },
+  {
+    "name": "sliders",
+    "source": "<svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M3 5h3\" stroke-width=\"2\"/><path d=\"M12 5h9\" stroke-width=\"2\"/><path d=\"M3 12h9\" stroke-width=\"2\"/><path d=\"M18 12h3\" stroke-width=\"2\"/><path d=\"M3 19h3\" stroke-width=\"2\"/><path d=\"M12 19h9\" stroke-width=\"2\"/><circle cx=\"9\" cy=\"5\" r=\"2.5\"/><circle cx=\"15\" cy=\"12\" r=\"2.5\"/><circle cx=\"9\" cy=\"19\" r=\"2.5\"/></svg>",
+    "specs": {
+      "0": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip",
+        "reason": "structural-short-stroke"
+      },
+      "1": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.1
+          ],
+          [
+            0.5,
+            2.5
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "2": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.1
+          ],
+          [
+            0.5,
+            2.5
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "3": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip",
+        "reason": "structural-short-stroke"
+      },
+      "4": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip",
+        "reason": "structural-short-stroke"
+      },
+      "5": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.1
+          ],
+          [
+            0.5,
+            2.5
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "6": {
+        "axis": "y",
+        "domain": [
+          2.5,
+          7.5
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "7": {
+        "axis": "y",
+        "domain": [
+          9.5,
+          14.5
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "8": {
+        "axis": "y",
+        "domain": [
+          16.5,
+          21.5
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      }
+    },
+    "retained": []
+  },
+  {
+    "name": "text_quote",
+    "source": "<svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><rect height=\"5\" rx=\"1.5\" width=\"5\" x=\"4.5\" y=\"8.5\"/><path d=\"M4.5 8.5c0 -3 2 -4 4 -4\" stroke-width=\"2\"/><rect height=\"5\" rx=\"1.5\" width=\"5\" x=\"14.5\" y=\"8.5\"/><path d=\"M14.5 8.5c0 -3 2 -4 4 -4\" stroke-width=\"2\"/><path d=\"M4 19.5h16\" stroke-width=\"2\"/></svg>",
+    "specs": {
+      "0": {
+        "axis": "y",
+        "domain": [
+          8.5,
+          13.5
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "1": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.5
+          ],
+          [
+            0.5,
+            2.5
+          ],
+          [
+            1,
+            1.5
+          ]
+        ],
+        "interpolation": "pchip",
+        "reason": "structural-curved-group"
+      },
+      "2": {
+        "axis": "y",
+        "domain": [
+          8.5,
+          13.5
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "3": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.5
+          ],
+          [
+            0.5,
+            2.5
+          ],
+          [
+            1,
+            1.5
+          ]
+        ],
+        "interpolation": "pchip",
+        "reason": "structural-curved-group"
+      },
+      "4": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.1
+          ],
+          [
+            0.5,
+            2.5
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip"
+      }
+    },
+    "retained": []
+  },
+  {
+    "name": "ungroup",
+    "source": "<svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><rect height=\"7\" rx=\"1.5\" width=\"7\" x=\"3\" y=\"3\"/><rect height=\"7\" rx=\"1.5\" width=\"7\" x=\"14\" y=\"14\"/><path d=\"M16 3h5v5\" stroke-width=\"2\"/><path d=\"M21 3l-6 6\" stroke-width=\"2\"/><path d=\"M3 16v5h5\" stroke-width=\"2\"/><path d=\"M3 21l6 -6\" stroke-width=\"2\"/></svg>",
+    "specs": {
+      "0": {
+        "axis": "y",
+        "domain": [
+          3.0,
+          10.0
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "1": {
+        "axis": "y",
+        "domain": [
+          14.0,
+          21.0
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "2": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.1
+          ],
+          [
+            0.5000000000000003,
+            2.5
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip",
+        "reason": "structural-single-corner"
+      },
+      "3": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.1
+          ],
+          [
+            0.5,
+            2.5
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "4": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.1
+          ],
+          [
+            0.5000000000000003,
+            2.5
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip",
+        "reason": "structural-single-corner"
+      },
+      "5": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.1
+          ],
+          [
+            0.5,
+            2.5
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip"
+      }
+    },
+    "retained": []
+  },
+  {
+    "name": "workflow",
+    "source": "<svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><rect height=\"6\" rx=\"2\" width=\"7\" x=\"3\" y=\"3\"/><rect height=\"6\" rx=\"2\" width=\"7\" x=\"14\" y=\"15\"/><path d=\"M10 6h7c5.3 0 5.3 6 0 6H7c-5.3 0 -5.3 6 0 6h7\" stroke-width=\"2\"/></svg>",
+    "specs": {
+      "0": {
+        "axis": "y",
+        "domain": [
+          3.0,
+          9.0
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "1": {
+        "axis": "y",
+        "domain": [
+          15.0,
+          21.0
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "2": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.1
+          ],
+          [
+            0.5,
+            2.2
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip",
+        "reason": "structural-shared-endpoint",
+        "buttStart": false,
+        "buttEnd": false,
+        "trimStart": 0.4,
+        "trimEnd": 0.4
+      }
+    },
+    "retained": []
+  },
+  {
+    "name": "workflow_merge",
+    "source": "<svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"5\" cy=\"4\" r=\"2\"/><circle cx=\"19\" cy=\"4\" r=\"2\"/><path d=\"M5 6C5 11 12 10 12 16\" stroke-width=\"2\"/><path d=\"M19 6C19 11 12 10 12 16\" stroke-width=\"2\"/><path d=\"M12 16v5\" stroke-width=\"2\"/><path d=\"M8.5 17.5l3.5 3.5l3.5 -3.5\" stroke-width=\"2\"/></svg>",
+    "specs": {
+      "0": {
+        "axis": "y",
+        "domain": [
+          2.0,
+          6.0
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "1": {
+        "axis": "y",
+        "domain": [
+          2.0,
+          6.0
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "2": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.5
+          ],
+          [
+            0.5,
+            2.5
+          ],
+          [
+            1,
+            1.5
+          ]
+        ],
+        "interpolation": "pchip",
+        "reason": "structural-curved-group"
+      },
+      "3": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.5
+          ],
+          [
+            0.5,
+            2.5
+          ],
+          [
+            1,
+            1.5
+          ]
+        ],
+        "interpolation": "pchip",
+        "reason": "structural-curved-group"
+      },
+      "4": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.1
+          ],
+          [
+            0.5,
+            2.2
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip",
+        "reason": "structural-shared-endpoint",
+        "buttStart": false,
+        "buttEnd": false,
+        "trimStart": 0.4,
+        "trimEnd": 0.4
+      },
+      "5": {
+        "axis": "length",
+        "stops": [
+          [
+            0,
+            1.1
+          ],
+          [
+            0.49999999999999956,
+            2.5
+          ],
+          [
+            1,
+            1.1
+          ]
+        ],
+        "interpolation": "pchip",
+        "reason": "structural-single-corner"
+      }
+    },
+    "retained": []
+  },
+  {
+    "name": "image_mosaic",
+    "source": "<svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><rect height=\"6\" rx=\"1.5\" width=\"6\" x=\"3.5\" y=\"3.5\"/><rect height=\"6\" rx=\"1.5\" width=\"6\" x=\"14.5\" y=\"3.5\"/><rect height=\"6\" rx=\"1.5\" width=\"6\" x=\"3.5\" y=\"14.5\"/><rect height=\"6\" rx=\"1.5\" width=\"6\" x=\"14.5\" y=\"14.5\"/></svg>",
+    "specs": {
+      "0": {
+        "axis": "y",
+        "domain": [
+          3.5,
+          9.5
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "1": {
+        "axis": "y",
+        "domain": [
+          3.5,
+          9.5
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "2": {
+        "axis": "y",
+        "domain": [
+          14.5,
+          20.5
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "3": {
+        "axis": "y",
+        "domain": [
+          14.5,
+          20.5
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      }
+    },
+    "retained": []
+  },
+  {
+    "name": "image_vignette",
+    "source": "<svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><rect height=\"17\" rx=\"3\" width=\"17\" x=\"3.5\" y=\"3.5\"/><ellipse cx=\"12\" cy=\"12\" rx=\"4.5\" ry=\"5\"/></svg>",
+    "specs": {
+      "0": {
+        "axis": "y",
+        "domain": [
+          3.5,
+          20.5
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "1": {
+        "axis": "y",
+        "domain": [
+          7.0,
+          17.0
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      }
+    },
+    "retained": []
+  },
+  {
+    "name": "pause",
+    "source": "<svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><rect height=\"16\" rx=\"1.8\" width=\"5.5\" x=\"4\" y=\"4\"/><rect height=\"16\" rx=\"1.8\" width=\"5.5\" x=\"14.5\" y=\"4\"/></svg>",
+    "specs": {
+      "0": {
+        "axis": "y",
+        "domain": [
+          4.0,
+          20.0
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      },
+      "1": {
+        "axis": "y",
+        "domain": [
+          4.0,
+          20.0
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      }
+    },
+    "retained": []
+  },
+  {
+    "name": "shape_rectangle",
+    "source": "<svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><rect height=\"16\" rx=\"3\" width=\"18\" x=\"3\" y=\"4\"/></svg>",
+    "specs": {
+      "0": {
+        "axis": "y",
+        "domain": [
+          4.0,
+          20.0
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      }
+    },
+    "retained": []
+  },
+  {
+    "name": "stop",
+    "source": "<svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><rect height=\"14\" rx=\"3\" width=\"14\" x=\"5\" y=\"5\"/></svg>",
+    "specs": {
+      "0": {
+        "axis": "y",
+        "domain": [
+          5.0,
+          19.0
+        ],
+        "stops": [
+          [
+            0,
+            2.5
+          ],
+          [
+            1,
+            1.3
+          ]
+        ],
+        "interpolation": "pchip"
+      }
+    },
+    "retained": []
+  }
+]

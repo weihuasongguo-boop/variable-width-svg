@@ -1,4 +1,4 @@
-import {chromium} from '@playwright/test';
+import {chromium,expect} from '@playwright/test';
 import assert from 'node:assert/strict';
 const base=process.env.VW_URL || 'http://127.0.0.1:4201';
 const {readFile}=await import('node:fs/promises');
@@ -17,7 +17,7 @@ await p.goto(base+'/variable-width');
 assert.equal(await p.locator('#figures [data-cursor="enlarge"]').count(),36);
 const homeImages=await p.locator('img[src*="variable-width-library"]').evaluateAll(imgs=>imgs.map(i=>new URL(i.src).pathname.split('/').pop().replace('.svg','')));assert.ok(homeImages.every(name=>library.includes(name)));
 await p.getByRole('button',{name:'Copy command',exact:true}).click();await p.getByRole('button',{name:'copied',exact:true}).waitFor();assert.match(await p.evaluate(()=>navigator.clipboard.readText()),/^npm install/);
-await p.getByRole('link',{name:'Icons',exact:true}).click();await p.waitForURL('**/variable-width/icons');
+await p.getByRole('link',{name:'Icons',exact:true}).click();await p.waitForURL('**/variable-width/icons');await expect(p.locator('[data-cursor="enlarge"]')).toHaveCount(library.length);
 await p.locator('[data-cursor="enlarge"]').first().click();await p.getByRole('button',{name:'Copy SVG',exact:true}).click();await p.getByRole('button',{name:'copied',exact:true}).waitFor();assert.match(await p.evaluate(()=>navigator.clipboard.readText()),/<svg/);await p.keyboard.press('Escape');
 await p.getByRole('button',{name:'Switch to dark mode',exact:true}).click();assert.equal(await p.locator('html').getAttribute('data-mode'),'dark');
 await p.getByRole('tab',{name:'中文',exact:true}).click();await p.getByRole('link',{name:'文档',exact:true}).click();await p.waitForURL('**/variable-width/docs');await p.getByRole('button',{name:'更新记录',exact:true}).click();await p.getByText('0.1.0 · 2026-10-13 · 首个公开实验版本',{exact:true}).waitFor();

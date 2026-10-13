@@ -10,3 +10,4 @@ This is an independent public project. Do not import the author's main website, 
 - Converter checks: `npm run test:package`, with Python 3.10+ (3.12 tested).
 - Public source must not contain credentials, internal npm registry URLs, local absolute paths or unrelated project files. Use the committed public npm registry configuration and lockfile.
 - Follow third-party font and icon notices. The code license does not supersede asset licenses.
+- Icon regeneration must materialize inherited presentation on source shapes and remove container strokes before producing filled outlines. Validate assets with `python3 -m unittest discover -s tools -p 'test_*.py'`; record accepted fixes and exclusions in `tools/icon-quality-review.json`.

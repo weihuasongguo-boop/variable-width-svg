@@ -60,3 +60,14 @@ Set `PYTHON` to a Python 3.10+ executable if `python3` points to an older versio
 ## Licenses
 
 Code: Apache-2.0 (`LICENSE`). Documentation: CC BY 4.0 (`LICENSE-DOCS`). Fonts and icon resources retain their respective rights; see `THIRD_PARTY_NOTICES.md`. The code license does not automatically license every source icon or brand mark.
+
+## Icon quality checks
+
+`tools/icon-quality-review.json` records reviewed corrections and display exclusions. `tools/icon-refinements.json` contains the source geometry and explicit width recipes for accepted fixes. To reproduce these assets with Python 3.10+:
+
+```sh
+python3 -m unittest discover -s tools -p "test_*.py"
+python3 tools/generate_refinements.py
+```
+
+The preparation step resolves inherited presentation attributes and supported relative path commands, then removes container strokes before generating filled outlines. Unsupported curves are rejected instead of silently retained as successful conversions. This tooling does not change the published npm package version.
