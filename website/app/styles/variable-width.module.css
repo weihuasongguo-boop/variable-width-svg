@@ -229,6 +229,16 @@
 
 .projectBrand{gap:10px}.projectBrand img{display:block;flex-shrink:0}
 
-.launchBuffBadge{display:block;width:144px;max-width:100%;margin:0 auto 20px;border-radius:6px}
-.launchBuffBadge:focus-visible{outline:2px solid currentColor;outline-offset:4px}
-.launchBuffBadge img{display:block;width:100%;height:auto}
+.navIcons>.launchBuffBadge{display:block;flex:none;width:auto;height:1.625rem;border-radius:4px}
+.launchBuffBadge:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+.launchBuffBadge img{display:block;width:auto;height:100%}
+@media(max-width:640px){
+  .headerActions:has(.launchBuffBadge){flex-wrap:wrap;gap:8px 12px;padding-inline:12px}
+  .headerActions:has(.launchBuffBadge) .projectNav{gap:12px}
+  .languageToggle:has(.launchBuffBadge){flex:none;gap:12px;margin-inline-start:auto}
+  .navIcons:has(.launchBuffBadge){gap:4px}
+}
+@media(max-width:360px){
+  .headerActions:has(.launchBuffBadge){padding-inline:0}
+  .languageToggle:has(.launchBuffBadge){gap:4px}
+}
