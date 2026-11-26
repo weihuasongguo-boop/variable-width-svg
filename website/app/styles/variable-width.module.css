@@ -228,3 +228,7 @@
 .installCommand{display:flex;align-items:center;justify-content:center;width:fit-content;padding:6px 6px 6px 12px;gap:12px;margin:28px auto 0;max-width:100%;min-width:0}.installCommand code{font-size:13px;overflow-wrap:anywhere;text-align:left;min-width:0}.installCommand button{flex-shrink:0}
 
 .projectBrand{gap:10px}.projectBrand img{display:block;flex-shrink:0}
+
+.launchBuffBadge{display:block;width:144px;max-width:100%;margin:0 auto 20px;border-radius:6px}
+.launchBuffBadge:focus-visible{outline:2px solid currentColor;outline-offset:4px}
+.launchBuffBadge img{display:block;width:100%;height:auto}

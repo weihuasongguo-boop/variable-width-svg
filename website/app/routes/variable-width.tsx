@@ -106,6 +106,15 @@ export function VariableWidthPage({ view = "home" }: { view?: "home" | "icons" |
     <div className={styles.headerActions}><nav className={styles.projectNav} aria-label={t("项目导航")}><Link to="/variable-width/icons">{t("图标")}</Link><Link to="/variable-width/docs">{t("文档")}</Link></nav><div className={styles.languageToggle}><div className={styles.navIcons}><Link href="https://www.producthunt.com/products/variable-width-svg?launch=variable-width-svg" aria-label="Product Hunt" title="Product Hunt"><img src="/variable-width/variable-width-navigation/product-hunt.svg" width={20} height={20} alt="" /></Link><Link href="https://github.com/weihuasongguo-boop/variable-width-svg" aria-label="GitHub" title="GitHub"><img src="/variable-width/variable-width-navigation/github.svg" width={20} height={20} alt="" /></Link><Button variant="ghost" size="sm" aria-label={theme === "dark" ? t("切换到浅色模式") : t("切换到深色模式")} title={theme === "dark" ? t("切换到浅色模式") : t("切换到深色模式")} onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>{theme === "dark" ? <img src="/variable-width/variable-width-navigation/sun.svg" width={20} height={20} alt="" /> : <img src="/variable-width/variable-width-navigation/moon.svg" width={20} height={20} alt="" />}</Button></div><Tabs size="sm" variant="segmented" value={language} onValueChange={value=>{setLanguage(value === "zh" ? "zh" : "en");}} tabs={[{value:"en",label:"EN"},{value:"zh",label:"中文"}]} aria-label={t("语言")} /></div></div></header>
     {view === "home" && <><section className={styles.hero} aria-labelledby="variable-title">
 
+      <a
+        className={styles.launchBuffBadge}
+        href="https://launchbuff.com/products/variable-width-svg-fcaa71"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Featured on LaunchBuff"
+      >
+        <img src="https://launchbuff.com/badge-featured-dark.svg" alt="Featured on LaunchBuff" width={256} height={80} referrerPolicy="no-referrer" />
+      </a>
       <VariableWidthHeroTitle language={language} />
       <p className={styles.heroCopy}>{t("从描边路径到可变线宽轮廓。")}<br />{t("平滑过渡，保留图形的比例与对称。")}</p>
       <InstallCommand />
